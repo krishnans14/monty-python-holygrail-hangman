@@ -1,2 +1,13 @@
 # monty-python-holygrail-hangman
-A hangman-like game where on guesses a quote from the movie Monty Python and the quest for the Holy grail
+
+**A Terminal Monty Python themed hangman game**
+
+This is a fun hangman like game to guess quotes from the Monty Python movie,
+The quest for the holy grail. Your aim is to guess the quote by guessing the letters
+one at a time. You have 5 chances (or 3 changes if you claim you are an expert)
+to guess the quote and if not, as the Black knight loses one limb after another,
+your champion will also lose.
+
+The quotes were web scrapped from montypython.net and then modified and added
+some extra. The approach is captured in mp_quote_list_gather.py.
+The quotes are in mp_quotes.py.
