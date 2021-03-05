@@ -39,6 +39,8 @@ for source in sources:
                         if len(quote[0].split(' ')) > 1 : # To avoid single word quotes that were mostly useless.
                             monty_python_quotes.append(quote[0])
 
+# There were several quotes that were duplicated.
+# The following trick of converting the list into dictionary and back helped to remove them
 monty_python_quotes = list(dict.fromkeys(monty_python_quotes))
 
 with open('mp_quotes.file', "wb") as f:

@@ -11,3 +11,9 @@ your champion will also lose.
 The quotes were web scrapped from montypython.net and then modified and added
 some extra. The approach is captured in mp_quote_list_gather.py.
 The quotes are in mp_quotes.py.
+
+Here are some screenshots on how this goes:
+<p>
+![](./images/game_won.gif)
+<p>
+![](./images/game_lost.gif)
