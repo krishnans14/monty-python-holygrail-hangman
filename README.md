@@ -14,6 +14,6 @@ The quotes are in mp_quotes.py.
 
 Here are some screenshots on how this goes:
 <p>
-![](./images/game_won.gif)
+<img src="images/game_won.gif" alt="I won"/>
 <p>
-![](./images/game_lost.gif)
+<img src="images/game_lost.gif" alt="I lost"/>
